@@ -1,4 +1,4 @@
-# Elastic::Textarea
+# Elastic Textarea
 
 Makes elastic textarea's which grow and shrink to fit the text included in them.
 Includes JavaScript by [Jan Jarfalk](http://unwrongest.com/projects/elastic/).
