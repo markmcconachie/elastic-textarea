@@ -1,6 +1,9 @@
 # Elastic::Textarea
 
-TODO: Write a gem description
+Makes elastic textarea's which grow and shrink to fit the text included in them.
+Includes JavaScript by (Jan Jarfalk)[http://unwrongest.com/projects/elastic/].
+
+Requires rails >= 3.1
 
 ## Installation
 
@@ -12,13 +15,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install elastic-textarea
-
 ## Usage
 
-TODO: Write usage instructions here
+In your form user elastic_text_area where you would use a standard text area.
+Accepts all the same options as the standard text_area.
+
+    <div class="field">
+      <%= f.label :description %><br />
+      <%= f.elastic_text_area :description %>
+    </div>
 
 ## Contributing
 
